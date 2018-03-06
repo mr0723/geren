@@ -204,6 +204,28 @@
 	margin-right: 5px;
 
 }
+.anniu3hezi{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.left_anniu3{
+	width: 100.39px;
+	height:27px;
+	padding: 10px 20px;
+	border: 2px solid #00A98F;
+	background-color: #00A98F;
+	color: #fff;
+	box-shadow: 0 -4px 27px 0 rgba(0, 0, 0,0.2),
+	0 4px 7px 0 rgba(0, 0, 0, 0.19);
+	font-size: 25px;
+	font-weight: 800;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	margin-top: 10px;
+
+}
 .left_anniu2{
 	width: 110.39px;
 	height:27px;
@@ -218,10 +240,10 @@
 	float: left;
 	margin-right: 5px;
 }
-.left_anniu a,.left_anniu2 a{
+.left_anniu a,.left_anniu2 a,.left_anniu3 a{
 	color: white;
 }
-.left_anniu:hover,.left_anniu2:hover{
+.left_anniu:hover,.left_anniu2:hover,.left_anniu3:hover{
 	border: 2px solid #87509c;
 	background: #87509c;
 	-webkit-transition: 0.5s all;
@@ -307,6 +329,7 @@
 	border-top: 1px solid #ddd;
 	margin-top: 32px;
 	text-align: center;
+	float: left;
 	/* background-color: yellow; */
 }
 .address li{
@@ -350,7 +373,7 @@
 }
 .containner_one{
 	width: 350px;
-	height: 250px;
+	height: 400px;
 	background-color: red;
 	margin-top: 20px;
 	margin-right: 	20px;
@@ -359,5 +382,65 @@
 }
 .containner_one img{
 	width: 350px;
-	height: 600px;
+	height:400px;
+}
+.contact{
+	width: 1349px;
+	height: 617px;
+	padding: 80px 0 96px 0;
+	background-image: url('../img/contact (1).jpg');
+	background-repeat: no-repeat;
+}
+.contact_neirong{
+	width: 1140px;
+	height: 612px;
+	padding: 0 15px;
+	margin: 0 89.5px;
+	/* background-color: pink; */
+}
+.contact_neirong h3{
+	width: 1140px;
+	height: 49px;
+	color: #fff;
+	text-align: center;
+	font-size: 46px;
+	font-weight: 800;
+	font-weight: 800;
+}
+.contact_neirong p{
+	width: 1140px;
+	height: 32px;
+	color: #00a98f;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 800;
+
+}
+.contact_neirong input{
+	width: 538px;
+	height: 20px;
+	padding: 15px;
+	border: 1px solid #fff;
+	margin: 28px 0 14px 0;
+	background: transparent;
+	color: #fff;
+	letter-spacing: 2px;
+	font-family: inherit;
+	float: left;
+	font-size: 14px;
+	font-weight: 800;
+}
+.contact_neirong textarea{
+	width: 1108px;
+	height: 68px;
+	padding: 15px;
+	border: 1px solid #fff;
+	margin: 14px 0;
+	background: transparent;
+	color: #fff;
+	letter-spacing: 2px;
+	font-family: inherit;
+	float: left;
+	font-size: 14px;
+	font-weight: 800;
 }
